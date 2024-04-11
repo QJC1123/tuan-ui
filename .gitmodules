@@ -1,0 +1,12 @@
+[submodule "tuan-admin-ui"]
+	path = tuan-admin-ui
+	url = https://github.com/QJC1123/tuan-admin-ui.git
+[submodule "tuan-wx-ui"]
+	path = tuan-wx-ui
+	url = https://github.com/QJC1123/tuan-wx-ui
+[submodule "tuan-model-master"]
+	path = tuan-model-master
+	url = https://github.com/QJC1123/tuan-model-master
+[submodule "tuan-control-center"]
+	path = tuan-control-center
+	url = https://github.com/QJC1123/tuan-control-center
