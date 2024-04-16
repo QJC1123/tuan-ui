@@ -7,6 +7,17 @@
 
 项目根据用户需求分为校园安防综合管理平台[tuan-admin-ui](https://github.com/QJC1123/tuan-admin-ui)、校园安防指挥中心[tuan-control-center](https://github.com/QJC1123/tuan-control-center)、校园安防小程序[tuan-wx-ui](https://github.com/QJC1123/tuan-wx-ui)、模型管理系统[tuan-model-master](https://github.com/QJC1123/tuan-model-master)四大模块。“校园安防智能保障系统”项目获第十四届服务外包创新创业大赛**国家级二等奖**。
 
+* 校园安防综合管理平台、校园安防指挥中心和模型管理系统的应用框架基于[vue](https://cn.vuejs.org/guide/introduction.html)。
+* 校园安防小程序的应用框架基于[uniapp](https://uniapp.dcloud.net.cn/)。
+* 校园安防综合管理平台、校园安防指挥中心和模型管理系统的前端组件采用[element-ui](https://www.uihtm.com/element/#/zh-CN)。
+* 校园安防小程序的前端组件采用[uni-ui](https://github.com/dcloudio/uni-ui)。
+* [Echarts](https://echarts.apache.org/zh/index.html)展示多种多种图表。
+* 实现浏览器播放Rtsp监控视频流
+* 使用[Canvas](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API)技术，绘制多边形并返回点位坐标信息，实现告警检测区域框选功能。
+* 实现定位打卡。利用[微信API](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/api.html)获取用户地理位置，使用[腾讯地图SDK](https://lbs.qq.com/mobile/androidMapSDK/developerGuide/androidSummary)获取地址信息，实现定位打卡。
+* 实现人脸识别。利用camera组件和takePhoto方法获取照片，压缩为Base64格式，传递给后端，使用[百度人脸识别API](https://ai.baidu.com/ai-doc/FACE/Yk37c1opz)，进行人脸比对，实现人脸识别功能。
+
+
 ## 系统服务
 <img  src="img/1.png"/>
 
